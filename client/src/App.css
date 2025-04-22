@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.font-inter {
+  font-family: 'inter', sans-serif;
+}
+
+.font-italiana {
+  font-family: 'Italiana', serif; /* Use serif or sans-serif based on your preference */
+}
+
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.element::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.element {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+/* pagination */
+
+.pagination .button.active{
+  background-color: blue;
+  color: white;
+}
